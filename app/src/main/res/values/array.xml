@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_us">
+        <item>US/Alaska</item>
+        <item>US/Aleutian</item>
+        <item>US/Arizona</item>
+        <item>US/Central</item>
+        <item>US/East-Indiana</item>
+        <item>US/Eastern</item>
+        <item>US/Hawaii</item>
+        <item>US/Indiana-Starke</item>
+        <item>US/Michigan</item>
+        <item>US/Mountain</item>
+        <item>US/Pacific</item>
+        <item>US/Pacific-New</item>
+        <item>US/Samoa</item>
+    </string-array>
+
+    <string-array name="Receipt_search">
+        <item>Search by transfer transaction history</item>
+        <item>Search by payment transaction history</item>
+        <item>Search by Exchange transaction history</item>
+        <item>Search by ICO transaction history</item>
+        <item>Search by mining transaction history</item>
+        <item>Search by bonus history</item>
+    </string-array>
+</resources>

@@ -1,0 +1,297 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <FrameLayout
+                        android:id="@+id/frame_finish"
+                        android:layout_width="80dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center_vertical">
+
+                        <ImageButton
+                            android:layout_width="20dp"
+                            android:layout_height="21dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/btn_back"
+                            android:clickable="false" />
+
+
+                    </FrameLayout>
+
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/toolbar_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="14.6dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/notosans_cjkkr_regular"
+                        android:gravity="center_vertical"
+                        android:text="@string/str_infomation_title"
+                        android:textColor="@color/C_010101"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+            </FrameLayout>
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="7dp"
+                        android:background="@color/C_EEEEEE" />
+
+
+                    <!-- CLB message-->
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/tv_message"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="15dp"
+                        android:gravity="center"
+                        android:text="@string/msg_clb_pay"
+                        android:textColor="@color/C_000000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:fontFamily="@font/notosans_medium_font" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="17dp"
+                            android:background="@color/C_FFFFFF"
+                            android:text="@string/str_Payment_of_clb"
+                            android:textColor="@color/C_666666"
+                            android:textSize="15sp"
+                            app:fontFamily="@font/notosans_medium_font" />
+
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@color/C_FFFFFF"
+                            android:text="@string/str_once_week_only"
+                            android:textColor="@color/C_666666"
+                            android:textSize="15sp"
+                            app:fontFamily="@font/notosans_medium_font" />
+
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginRight="43dp"
+                            android:background="@color/C_FFFFFF"
+                            android:text="@string/str_scanning_compensation"
+                            android:textColor="@color/C_666666"
+                            android:textSize="15sp"
+                            app:fontFamily="@font/notosans_medium_font" />
+
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@color/C_FFFFFF"
+                            android:text="@string/str_tansfer_may"
+                            android:textColor="@color/C_666666"
+                            android:textSize="15sp"
+                            app:fontFamily="@font/notosans_medium_font" />
+
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@color/C_FFFFFF"
+                            android:text="@string/str_not_reimbursed"
+                            android:textColor="@color/C_666666"
+                            android:textSize="15sp"
+                            app:fontFamily="@font/notosans_medium_font" />
+
+                        <LinearLayout
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="35dp"
+                            android:layout_marginRight="30dp"
+                            android:orientation="vertical">
+
+                            <android.support.v7.widget.AppCompatTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_email"
+                                android:textColor="@color/C_006Cff"
+                                android:textSize="10sp"
+                                app:fontFamily="@font/notosans_cjkkr_bold" />
+
+                            <android.support.v7.widget.AppCompatEditText
+                                android:id="@+id/et_email_address"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:imeOptions="actionDone"
+                                android:scrollHorizontally="false"
+                                android:singleLine="true"
+                                android:textColor="@color/C_006Cff"
+                                android:textSize="20sp"
+                                android:theme="@style/EditTheme"
+                                app:fontFamily="@font/notosans_cjkkr_bold" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="35dp"
+                            android:layout_marginRight="30dp"
+                            android:orientation="vertical">
+
+                            <android.support.v7.widget.AppCompatTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:inputType="textEmailAddress"
+                                android:text="@string/str_Wallet_address"
+                                android:textColor="@color/C_006Cff"
+                                android:textSize="10sp"
+                                app:fontFamily="@font/notosans_cjkkr_bold" />
+
+                            <android.support.v7.widget.AppCompatEditText
+                                android:id="@+id/et_wallet_address"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:scrollHorizontally="false"
+                                android:singleLine="true"
+                                android:textColor="@color/C_006Cff"
+                                android:textSize="20sp"
+                                android:theme="@style/EditTheme"
+                                app:fontFamily="@font/notosans_cjkkr_bold" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginBottom="40dp"
+                            android:orientation="horizontal">
+
+
+                            <android.support.v7.widget.AppCompatTextView
+                                android:id="@+id/tv_modify"
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/str_modify"
+                                android:textColor="@color/C_0C6CEE"
+                                android:textSize="14sp" />
+
+                            <ImageView
+                                android:layout_width="14dp"
+                                android:layout_height="14dp"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/right_arrow_blue" />
+
+
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/C_F5F5F5">
+
+                            <android.support.v7.widget.AppCompatTextView
+                                android:id="@+id/tv_infomation_modified"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/notosans_cjkkr_regular"
+                                android:gravity="left"
+                                android:paddingTop="20dp"
+                                android:paddingBottom="20dp"
+                                android:text="@string/str_infomation_cannot_be_modified"
+                                android:textColor="@color/C_666666"
+                                android:textSize="11sp" />
+
+                        </FrameLayout>
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="27dp"
+                            android:layout_marginBottom="30dp"
+                            android:fontFamily="@font/notosans_cjkkr_medium"
+                            android:text="@string/str_copyright"
+                            android:textColor="@color/C_999999"
+                            android:textSize="11sp" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </android.support.v4.widget.NestedScrollView>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

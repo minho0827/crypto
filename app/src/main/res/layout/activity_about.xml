@@ -1,0 +1,162 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+                <FrameLayout
+                    android:id="@+id/frame_finish"
+                    android:layout_width="40dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    >
+                    <ImageButton
+                        android:layout_width="20dp"
+                        android:layout_height="21dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/btn_back"
+                        android:clickable="false" />
+
+
+                </FrameLayout>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/tv_scan_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/tv_scan_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/toolbar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14.6dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/notosans_cjkkr_regular"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/C_010101"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/C_EEEEEE" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="@color/black" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Product Version "
+                android:textColor="@color/black" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_app_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="25dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_cryptocurrency_desc"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+
+
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_terms_of_use"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/str_terms_of_use" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_privacy_policy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/str_privacy_policy" />
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_contact_us"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_desc"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="37dp"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="30dp"
+        android:text="@string/str_copyright"
+        android:textSize="10.5sp" />
+
+
+</android.support.design.widget.CoordinatorLayout>

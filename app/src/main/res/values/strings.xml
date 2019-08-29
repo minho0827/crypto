@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="str_korean">한국어</string>
+    <string name="str_english">English</string>
+    <string name="str_japanese">日本語</string>
+    <!--Intro-->
+    <string name="str_settings">Settings</string>
+
+    <string name="str_next">NEXT</string>
+    <string name="str_support">Support</string>
+    <string name="str_about">About</string>
+    <string name="str_language_kor">한국어</string>
+    <string name="str_language_us">English</string>
+    <string name="str_update">UPDATE</string>
+    <string name="str_welcome">Welcome!!</string>
+    <string name="str_update_title">New update available!</string>
+    <string name="msg_welcome">Cryptobric in the cloudbric provides\nsecure protection against malware\nthrough Crypto app scans, as well as\nCLBK payment for scans. \n\nAlso, if you are verifying that the\nCrypto app you are using is safe,\nyou can inform us.\n\nNow enjoy more and more secure cryptocurrency transactions with Cryptobric
+</string>
+    <string name="msg_clb_pay">This information is used to pay CLB\nwhen scanning a malicious code\ninfection for Crypto App.</string>
+    <string name="msg_update">An update for the application is available.</string>
+    <string name="msg_agree">I agree with the Terms of use &amp; Privacy\n Policy will apply</string>
+    <string name="msg_clb_payment">You can save it in my information at a later time..
+    </string>
+    <string name="msg_weeks_ago">"weeks ago"
+
+</string>
+    <string name="str_allow">Allow</string>
+    <string name="str_all_scan_report">All App Report</string>
+    <string name="str_crypto_scan_report">Crypto App Report</string>
+    <string name="str_all_scan">All App Scan</string>
+    <string name="msg_permissions_access">Cloudbric Security needs access to\nthe following permissions.</string>
+    <string name="str_requires_athority">Requires athority</string>
+    <string name="str_infomation_title">My Infomation</string>
+    <string name="str_infomation_modified">You can save it in my information\nat a later time..</string>
+    <string name="str_infomation_cannot_be_modified">Information cannot be modified for existing\n
+information entered between 1 and 15 days of each\n
+month during the compensation validation period.\n
+If you need to make any changes, please contact us by\n
+email.  <u><font color='#006cff'><b>Contact us</b></font></u></string>
+    <string name="str_last_scan">Last Scan</string>
+    <string name="str_not_scanned">Not Scanned</string>
+    <string name="str_Payment_of_clb">∙Payment of 000 CLB for one scan</string>
+    <string name="str_once_week_only">∙Once a week only</string>
+    <string name="str_payment_of">∙Payment of 000 CLB for one scan </string>
+    <string name="str_scanning_compensation">∙Scanning compensation will be paid before 17:00 p.m.&#160;on the 15th of next month. Payable on next business&#160;day if 15th is a Holiday </string>
+    <string name="str_tansfer_may">∙Transfer may be restricted if no wallet address is entered</string>
+    <string name="str_not_reimbursed">∙Not reimbursed in case of transmission failure due to\n&#160;incorrect wallet address input.</string>
+    <string name="str_skip">SKIP</string>
+    <string name="str_ok">OK</string>
+    <string name="str_delete">Delete</string>
+    <string name="str_safe">Safe</string>
+    <string name="str_risk_L">RISK</string>
+    <string name="str_safe_L">SAFE</string>
+    <string name="str_language_select">Language Select</string>
+    <string name="str_no_threats_detected">No Threats detected.</string>
+    <string name="str_malicious_codes_have_been_found"> malicious codes have been found.</string>
+    <string name="msg_threats">Scan your device for hidden threats"</string>
+    <string name="msg_not_scanned_history">There are no recent scan results.</string>
+    <string name="msg_malicious_threats">Malicious codes have been found."</string>
+    <string name="msg_malicious_required">Malicious code check is required."</string>
+    <string name="msg_crypto_scan">Scanning your Crypto apps..."</string>
+    <string name="msg_all_scan">Scanning your All apps..."</string>
+    <string name="msg_hidden_threats">Scan your device for hidden threats</string>
+    <string name="msg_thankyou">Thank you for your tip-off.</string>
+    <string name="str_modify">modify</string>
+    <string name="str_email">EmailAddress</string>
+    <string name="msg_clb_paid_later_scan">CLB will be paid later as \ncompensation for the scan.</string>
+    <string name="str_Wallet_address">Wallet address</string>
+    <string name="msg_change_language">Do you want to change your language?</string>
+    <string name="msg_current_already_language">The language you are already using.</string>
+    <string name="msg_clb_paid_title">CLB payment will not be made \n without this information.</string>
+    <string name="msg_language_not_support">Korean language service is being prepared.</string>
+    <string name="msg_comming_soon">Coming soon.</string>
+
+    <string name="notification_id">cryptobric_channel_id</string>
+    <string name="notification_name">cryptobric_channel_name</string>
+
+    <string name="msg_popup_permission_go">Do you want to go to the permission settings?</string>
+    <string name="default_notification_channel_id">Cryptobric_DEFAULT_CHANNEL</string>
+    <string name="msg_token_fmt">firebase token</string>
+    <string name="msg_conditions_of_use">You cannot use the app unless you agree to the terms and conditions of use and the privacy policy</string>
+
+    <string name="app_name">Cryptobric</string>
+    <string name="msg_not_internet">The Internet is not connected.</string>
+    <string name="msg_not_network">network is not connected.</string>
+    <string name="msg_failed">failed!!!</string>
+    <string name="str_confirm">confirm</string>
+    <string name="str_yes">YES</string>
+    <string name="str_send">SEND</string>
+    <string name="str_no">NO</string>
+    <string name="str_cancel">Cancel</string>
+    <string name="str_telephone">Telephone</string>
+    <string name="str_local">Local situation</string>
+    <string name="str_copy">Copy</string>
+    <string name="str_wifi_title">Internet, Wi-Fi connection information</string>
+    <string name="str_current_version">Current version:</string>
+    <string name="str_latest_version">Latest version:</string>
+    <string name="str_wifi_desc">Required for network connectivity\nfor engine updates and Wi-Fi control etc.</string>
+    <string name="str_local_desc">Required for setting the default language.</string>
+    <string name="str_telephone_desc">Use it to register devices and identify devices.</string>
+    <string name="str_auth_notice_header">Additional Certification Procedure</string>
+    <string name="msg_auth_notice_message_1">Hello everyone.\nFor enhanced security, authentication via SMS or Google OTP has been added for coin transfer.\nPlease note that at least one authentication procedure is mandatory for transfer.</string>
+    <string name="msg_scanning">You cannot operate while scanning...</string>
+    <string name="msg_certifiable_crypto">This is a list of the many Crypto apps currently in\n use, verified and selected by Cryptobric.. \n\nW\'ell update our self-validated Crypto app list, \nincluding self-verification and tip-off, so please take \na lot of interest.</string>
+    <string name="msg_scan_success">scan success!</string>
+    <string name="msg_auth_notice_message_4">To use Google OTP Authenticator\nplease register your Google OTP in [Settings > Google OTP Registration].</string>
+    <string name="str_google_reg">Registration</string>
+    <string name="msg_verification">Didn’t you find your Crypto App on\nthe verification list?</string>
+    <string name="msg_certifiable_title">What is certifiable Crypto app?</string>
+    <string name="msg_verification_body">If you report a list of Crypto apps\ninstalled in mobile other than a verifiable\nCrypto App, we will review them and add \nthem to your verification list.</string>
+    <string name="msg_use_crypto_apps">We will use more crypto apps as a\n testable material.</string>
+    <string name="msg_clb_paid">We will use more crypto apps as a\n testable material.</string>
+
+    <string name="tv01"><![CDATA[<font color=\'#ff0000\'>Hello</font>]]></string>
+
+
+    <string name="about_desc">Should you have any questions regarding how the\nproducts works, please  <u><font color='#006cff'><b>Contact us</b></font></u></string>
+    <string name="about_cryptocurrency_desc">Cryptobric in the cloudbric provides secure\nprotection against malware through Crypto\napp scans, as well as CLBK payment for scans.\n\nAlso, if you are verifying that the Crypto app \nyou are using is safe, you can inform us.\n\n
+        \n\nNow enjoy more and more secure\ncryptocurrency transactions with Cryptobric!
+</string>
+
+    <string name="str_not_review">Do not show again.</string>
+    <string name="str_confrim_crypto_apps">검증 가능한 Crypto Apps</string>
+    <string name="msg_quest_patch">최신버전으로 업데이트하시겠습니까?</string>
+
+
+    <string name="str_terms_of_use"><u>Terms of use</u></string>
+    <string name="title_terms_of_use">Terms of use</string>
+    <string name="str_privacy_policy"><u><font color='#006cff'><b>Privacy Policy</b></font></u></string>
+    <string name="title_privacy_policy">Privacy Policy</string>
+    <string name="str_copyright">Copyright ⓒ 2019 Cloudbric Security. All rights reserved.</string>
+    <string name="str_scan">SCAN</string>
+    <string name="str_stop">STOP</string>
+    <string name="str_crypto_scan">CRYPTO\nSCAN</string>
+
+
+    <string name="str_language">Language</string>
+    <string name="str_infection_for_crypto_app">This information is used to pay CLB\nwhen scanning a malicious code\ninfection for Crypto App.</string>
+    <string name="str_validated_crypto_apps">Validated Crypto Apps.</string>
+    <string name="str_my_infomation">My Information</string>
+    <string name="str_unknowability">Unknown</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+
+</resources>

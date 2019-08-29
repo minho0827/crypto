@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "841481811173",
+    "firebase_url": "https://cryptobric.firebaseio.com",
+    "project_id": "cryptobric",
+    "storage_bucket": "cryptobric.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841481811173:android:55deb921780634ea",
+        "android_client_info": {
+          "package_name": "com.cloudbric.cryptobric"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841481811173-19g140nmq0d542lnu2u8v6kb6i6b62bf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSaFvs1bgGOAbZWBWeTFfuTD6QA9pMwKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "841481811173-19g140nmq0d542lnu2u8v6kb6i6b62bf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

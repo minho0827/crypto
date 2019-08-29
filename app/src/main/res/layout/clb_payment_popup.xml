@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="286dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <!-- 컨텐츠 내용 공간 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="264dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <!-- 컨텐츠 제목 -->
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/txtMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:lineSpacingExtra="2dp"
+            android:textColor="@color/C_394048"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:fontFamily="@font/notosans_medium_font" />
+
+
+        <!-- 컨텐츠 내용 -->
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/txtBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:lineSpacingExtra="2dp"
+            android:text="@string/msg_certifiable_crypto"
+            android:textColor="@color/C_394048"
+            android:textSize="16dp"
+            app:fontFamily="@font/notosans_medium_font"
+            android:layout_marginBottom="28dp"/>
+    </LinearLayout>
+
+    <!-- 버튼 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:orientation="horizontal">
+
+        <!--ok -->
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/btnSend"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/C_C0C0C0"
+            android:gravity="center"
+            android:text="@string/str_ok"
+            android:textColor="@drawable/drawable_alert_button_text_color"
+            android:textSize="17.5dp"
+            android:visibility="gone"
+            app:fontFamily="@font/notosans_medium_font" />
+    </LinearLayout>
+
+</LinearLayout>

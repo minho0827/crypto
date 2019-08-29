@@ -1,0 +1,190 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="286dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/C_FFFFFF"
+    android:orientation="vertical">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <!-- ScollView가 담고 있는 필수 레이아웃 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:orientation="vertical">
+
+            <!-- 컨텐츠 헤더 -->
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/notosans_bold_font"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/msg_permissions_access"
+                android:textColor="@color/C_000000"
+                android:textSize="16dp" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/C_EEEEEE" />
+            <!-- 컨텐츠 헤더 -->
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/notosans_bold_font"
+                android:gravity="left"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/str_requires_athority"
+                android:textColor="@color/C_000000"
+                android:textSize="16dp" />
+
+
+            <!--wifi icon-->
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="36.8dp"
+                android:layout_height="26dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/wifi" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="13dp"
+                android:fontFamily="@font/notosans_bold_font"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/str_wifi_title"
+                android:textColor="@color/C_006Cff"
+                android:textSize="12dp" />
+
+            <!-- wifi 설명 -->
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="13dp"
+                android:fontFamily="@font/notosans_medium_font"
+                android:gravity="center"
+                android:text="@string/str_wifi_desc"
+                android:textColor="@color/C_666666"
+                android:textSize="11dp" />
+
+
+            <!--telephone icon-->
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="36.8dp"
+                android:layout_height="26dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/phone" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="13dp"
+                android:fontFamily="@font/notosans_bold_font"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/str_telephone"
+                android:textColor="@color/C_006Cff"
+                android:textSize="12dp" />
+
+            <!--  설명 -->
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="13dp"
+                android:fontFamily="@font/notosans_medium_font"
+                android:gravity="center"
+                android:text="@string/str_telephone_desc"
+                android:textColor="@color/C_666666"
+                android:textSize="11dp" />
+
+
+            <!--telephone icon-->
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="36.8dp"
+                android:layout_height="26dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/place" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="13dp"
+                android:fontFamily="@font/notosans_bold_font"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/str_local"
+                android:textColor="@color/C_006Cff"
+                android:textSize="12dp" />
+
+            <!--  설명 -->
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="13dp"
+                android:fontFamily="@font/notosans_medium_font"
+                android:gravity="center"
+                android:text="@string/str_local_desc"
+                android:textColor="@color/C_666666"
+                android:textSize="11dp" />
+
+            <LinearLayout
+                android:id="@+id/linear_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/tv_allow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/C_FFFFFF"
+                    android:text="@string/str_allow"
+                    android:textColor="@color/C_0C6CEE"
+                    android:textSize="14sp"
+                    app:fontFamily="@font/notosans_medium_font" />
+
+                <android.support.v7.widget.AppCompatImageButton
+                    android:layout_width="12.1dp"
+                    android:layout_height="12.1dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/right_arrow" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

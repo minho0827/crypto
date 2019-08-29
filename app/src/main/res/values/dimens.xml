@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="common_button_height">44dp</dimen>
+    <dimen name="common_margin_left_17dp">17dp</dimen>
+    <dimen name="common_margin_right_17dp">17dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+</resources>

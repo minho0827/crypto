@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <!-- ********** App Name ********** -->
+    <!--<string name="app_name">Cryptobric</string>-->
+    <!--<string name="str_confirm">확인</string>-->
+    <!--<string name="str_confrim_crypto_apps"></string>-->
+
+    <!--<string name="msg_popup_permission_go">권한 설정창으로 이동하시겠습니까?</string>-->
+    <!--<string name="str_validated_crypto_apps">검증 가능한 crypto 앱리스트</string>-->
+
+</resources>

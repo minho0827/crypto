@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <!-- 컨텐츠 내용 공간 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <!-- 컨텐츠 제목 -->
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/txtMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:lineSpacingExtra="2dp"
+            android:textColor="@color/C_394048"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:fontFamily="@font/notosans_medium_font" />
+
+
+        <!-- 컨텐츠 내용 -->
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/txtBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lineSpacingExtra="2dp"
+            android:text="@string/msg_use_crypto_apps"
+            android:textColor="@color/C_394048"
+            android:textSize="16sp"
+            app:fontFamily="@font/notosans_medium_font" />
+
+        <FrameLayout
+            android:id="@+id/frame_ok"
+            android:layout_width="93dp"
+            android:layout_height="36dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="11dp"
+            android:layout_marginBottom="31dp">
+
+            <!--ok -->
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/str_ok"
+                android:clickable="false"
+                android:textColor="@color/C_0C6CEE"
+                android:textSize="14sp"
+                app:fontFamily="@font/notosans_medium_font" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

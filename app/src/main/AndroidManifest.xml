@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cloudbric.cryptobric">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" /> <!-- Location information for weather -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Read SMS [핸드폰번호] 읽기 권한 -->
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES"/>
+
+    <application
+        android:name=".BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <service
+            android:name=".fcm.FitmanagerFcmService"
+            android:stopWithTask="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".activity.MainActivity"></activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" /> <!-- SplashActivity -->
+        <activity
+            android:name=".activity.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- CryptoScanResultListActivityTest -->
+        <!-- AboutActivity -->
+        <activity
+            android:name=".activity.AboutActivity"
+            android:screenOrientation="portrait" /> <!-- PrivacyPolicyActivity -->
+        <activity
+            android:name=".activity.PrivacyPolicyActivity"
+            android:screenOrientation="portrait" /> <!-- SettingsActivity -->
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:screenOrientation="portrait" /> <!-- CryptoResultListActivity -->
+        <activity
+            android:name=".activity.CryptoResultListActivity"
+            android:screenOrientation="portrait" /> <!-- CryptoResultListActivity -->
+        <activity
+            android:name=".activity.AllResultListActivity"
+            android:screenOrientation="portrait" /> <!-- LanguageSelectActivity -->
+        <activity
+            android:name=".activity.LanguageSelectActivity"
+            android:screenOrientation="portrait" /> <!-- LanguageSelectActivity -->
+        <activity
+            android:name=".activity.MyInfomationActivity"
+            android:screenOrientation="portrait" /> <!-- LanguageSelectActivity -->
+        <activity
+            android:name=".activity.VerificationListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AllHistoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CryptoHistoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TermsOfUseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyApplicationListActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" /> <!-- fcm 알림 컬러 -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_launcher_background" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+    </application>
+
+</manifest>
